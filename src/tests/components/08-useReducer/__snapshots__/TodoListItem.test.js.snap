@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in TodoListItem component should be render correctly 1`] = `
+<div
+  className="row m-1"
+>
+  <div
+    className="col-6"
+  >
+    <p
+      className="false"
+      onClick={[Function]}
+    >
+      2
+       
+      Aprender React
+    </p>
+  </div>
+  <div
+    className="col-6"
+  >
+    <button
+      className="btn btn-danger btn-sm"
+      onClick={[Function]}
+    >
+      borrar
+    </button>
+  </div>
+</div>
+`;

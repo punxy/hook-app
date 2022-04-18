@@ -33,7 +33,15 @@ export const useFetch = (url) => {
                         data
                     });
                 }
-            });
+            })
+            .catch(e => {
+                setState({
+                    loading: false,
+                    data: null,
+                    error: 'data could not be loaded'
+                });
+            })
+            ;
 
     }, [url]);
 
